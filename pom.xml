@@ -4,7 +4,7 @@
 
     <groupId>ch.schlau.pesche</groupId>
     <artifactId>syringe</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>${project.groupId}.${project.artifactId}</name>
@@ -29,7 +29,7 @@
         <connection>scm:git:git://github.com/pe-st/syringe.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/pe-st/syringe.git</developerConnection>
         <url>http://github.com/pe-st/syringe/tree/master</url>
-      <tag>syringe-0.1.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>

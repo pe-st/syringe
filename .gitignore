@@ -1,4 +1,6 @@
 target/
+pom.xml.releaseBackup
+release.properties
 
 # binary files
 *.class

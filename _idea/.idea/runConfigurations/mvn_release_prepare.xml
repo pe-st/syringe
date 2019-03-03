@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="mvn install" type="MavenRunConfiguration" factoryName="Maven">
+  <configuration default="false" name="mvn release:prepare" type="MavenRunConfiguration" factoryName="Maven">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings" />
@@ -10,14 +10,13 @@
           </option>
           <option name="goals">
             <list>
-              <option value="install" />
+              <option value="release:clean" />
+              <option value="release:prepare" />
             </list>
           </option>
           <option name="pomFileName" />
           <option name="profilesMap">
-            <map>
-              <entry key="deploy-to-central" value="true" />
-            </map>
+            <map />
           </option>
           <option name="resolveToWorkspace" value="false" />
           <option name="workingDirPath" value="$PROJECT_DIR$/.." />
